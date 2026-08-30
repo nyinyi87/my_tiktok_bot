@@ -52,7 +52,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     for i, img_url in enumerate(images):
                         if i == 0:
                             # ပထမဆုံး ပုံတွင် စာတန်း (Caption) ထည့်ရန်
-                            media_group.append(InputMediaPhoto(media=img_url, caption=f"📸 {title}\n\nDownloaded by Bot"))
+                            media_group.append(InputMediaPhoto(media=img_url, caption=f"📸 {title}\n\nPowered by @NYINYISK"))
                         else:
                             media_group.append(InputMediaPhoto(media=img_url))
                     
