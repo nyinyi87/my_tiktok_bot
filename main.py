@@ -16,8 +16,7 @@ async def show_progress(msg):
         for percent in steps:
             await asyncio.sleep(0.4)
             blocks = "█" * (percent // 10) + "░" * (10 - (percent // 10))
-            await msg.edit_text(f"⏳ ရယူနေပါသည်... {percent}%\n[{blocks}]
-            🥺ပြန်မလာတဲ့သူကိုစောင့်သေးတာပဲ ခနလေးစောင့်ပါ။🥺")
+            await msg.edit_text(f"⏳ ရယူနေပါသည်... {percent}%\n[{blocks}]🥺ပြန်မလာတဲ့သူကိုစောင့်သေးတာပဲ ခနလေးစောင့်ပါ။🥺")
     except Exception:
         pass
 
