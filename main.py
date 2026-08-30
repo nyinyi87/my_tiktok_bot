@@ -3,10 +3,10 @@ import requests
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "၇၇၇၇၇၇၇၇၇၇:XXXXXXXXXXXX"  # မိမိ Bot Token ကို ပြန်ထည့်ပါ
+TOKEN = "8837141917:AAHUhSgiMLbOofGAeMrrB4qEXtAF9JLAY8Y"  # မိမိ Bot Token ကို ပြန်ထည့်ပါ
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("မင်္ဂလာပါ။ TikTok Link ပို့ပေးပါ၊ Watermark မပါဘဲ ဒေါင်းလုဒ်ဆွဲပေးပါမည်။")
+    await update.message.reply_text("မင်္ဂလာပါ။💕TikTok Link ပို့ပေးပါ၊ Watermark မပါဘဲ ဒေါင်းလုဒ်ဆွဲပေးပါမည်။P Gyi။")
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     url = update.message.text.strip()
